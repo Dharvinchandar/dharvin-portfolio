@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharuv 62 Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cafe.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>Dharuv 62 Cafe</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to Dharuv 62 Cafe</h2>
+            <p>Fresh Coffee, Delicious Food & Happy Moments</p>
+            <button id="change" onclick="change()">Order Now</button>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+
+        <p>
+            Dharuv 62 Cafe is a cozy place where coffee lovers and food enthusiasts
+            enjoy premium coffee, snacks and unforgettable experiences.
+        </p>
+
+        <img src="images/great vibes.jpg" alt="Cafe">
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+        <h2>Popular Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="images/coffe2.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>₹120</p>
+                <button onclick="place('Cappuccino', this)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/coffe1.jpg" alt="Coffee">
+                <h3>Coffee</h3>
+                <p>₹150</p>
+                <button onclick="place('Coffee', this)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/burger.jpg" alt="Cheese Burger">
+                <h3>Cheese Burger</h3>
+                <p>₹180</p>
+                <button onclick="place('Cheese Burger', this)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/pizza.jpg" alt="Pepperoni Pizza">
+                <h3>Pepperoni Pizza</h3>
+                <p>₹250</p>
+                <button onclick="place('Pepperoni Pizza', this)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/tea.jpg" alt="Green Tea">
+                <h3>Green Tea</h3>
+                <p>₹80</p>
+                <button onclick="place('Green Tea', this)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/cold coffe.jpg" alt="Cold Coffee">
+                <h3>Cold Coffee</h3>
+                <p>₹150</p>
+                <button onclick="place('Cold Coffee', this)">Order</button>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="reviews" class="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review-box">
+            ⭐⭐⭐⭐⭐
+            <p>"Best coffee shop in town!"</p>
+        </div>
+
+        <div class="review-box">
+            ⭐⭐⭐⭐⭐
+            <p>"Amazing ambience and tasty food."</p>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Bodinayakanur, Tamil Nadu</p>
+        <p>📞 +91 9876543210</p>
+        <p>✉ info@dharuv46cafe.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Dharuv 62 Cafe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
